@@ -29,6 +29,7 @@ function UserInterface(account) {
   filteringAccountHistory("deposit");
   transaction();
 }
+console.log("now");
 function calculateAccountBalance() {
   if (currentUser.accountHistory) {
     const balanceCalc = currentUser.accountHistory.reduce(
