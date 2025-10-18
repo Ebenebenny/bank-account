@@ -30,6 +30,10 @@ function UserInterface(account) {
   transaction();
 }
 console.log("now");
+
+function delte() {
+  console.log("deleted");
+}
 function calculateAccountBalance() {
   if (currentUser.accountHistory) {
     const balanceCalc = currentUser.accountHistory.reduce(
